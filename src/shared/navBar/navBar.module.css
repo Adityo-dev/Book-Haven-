@@ -1,0 +1,195 @@
+.navBarAllDataContainer {
+  position: relative;
+  background-color: #022335;
+  color: #fff;
+}
+
+/* nav Items Container 1 */
+.navItemsContainer1 {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.navTopItemContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.navTopItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.navTopItemIcon {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+/* nav Items Container 2 */
+.navItemsContainer2Line {
+  position: relative;
+  border-top: 1px solid #63747e;
+  border-bottom: 1px solid #63747e;
+  padding: 18px 0;
+}
+
+.navItemsContainer2 {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBarSearchFieldContainer {
+  position: relative;
+  width: 65%;
+}
+
+.navBarSearchField {
+  width: 100%;
+  min-height: 45px;
+  padding: 0 200px 0 45px;
+  background-color: #fff;
+  color: #878787b3;
+  border: none;
+}
+
+.navBarSearchIcon {
+  position: absolute;
+  left: 17px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #ffd200;
+}
+
+.navBarSearchButton {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffd200;
+  border: none;
+  padding: 0 29px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  height: 35px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.navBarSearchButton:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+.navBarAddCardContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #fff;
+  color: #022335;
+  padding: 0 17px 0 19px;
+  min-height: 45px;
+}
+
+.navBarAddCardIconContainer {
+  border-right: 1px solid #c9d0d4;
+  width: 100%;
+  height: 45px;
+}
+
+.navBarAddCardIcon {
+  position: relative;
+  top: 50%;
+  font-size: 24px;
+  transform: translateY(-50%);
+  margin-right: 15px;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.navBarAddCardIcon:hover {
+  color: #ffd200;
+}
+
+.navBarAddCardPrice {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* nav Items Container 3 */
+.navItemsContainer3 {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.navItemsContainer3NavBarShopByCategoriesData {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navBarShopByCategoriesTextDataContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navBarCategoriesMenuIcon {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.categoriesArrowDown {
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.categoriesArrowDownLine {
+  border-right: 1px solid #63747e;
+  height: 47px;
+}
+
+.navBarShopByCategoriesItemsContainer {
+  top: 50px;
+  background-color: #fff;
+  color: #333;
+  width: 18.3%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  display: none;
+}
+
+.navListDataContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navListDataContainerList {
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
