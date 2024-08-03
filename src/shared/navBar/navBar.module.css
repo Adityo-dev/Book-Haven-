@@ -6,6 +6,7 @@
 
 /* nav Items Container 1 */
 .navItemsContainer1 {
+  max-width: 1550px;
   width: 75%;
   margin: 0 auto;
   display: flex;
@@ -41,6 +42,7 @@
 }
 
 .navItemsContainer2 {
+  max-width: 1550px;
   width: 75%;
   margin: 0 auto;
   display: flex;
@@ -133,6 +135,7 @@
 .navItemsContainer3 {
   position: relative;
   width: 75%;
+  max-width: 1550px;
   margin: 0 auto;
 }
 

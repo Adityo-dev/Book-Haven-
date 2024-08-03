@@ -1,0 +1,13 @@
+.newProductsAllDataContainer {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1550px;
+}
+
+.newProductsCartContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 35px;
+  border-bottom: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+}

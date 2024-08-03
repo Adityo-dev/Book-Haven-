@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 // import image
-import slider1 from "../../../assets/Image/layer/Layer-1.png";
+import slider1 from "../../../assets/Image/hero/slider1.png";
 import slider2 from "../../../assets/Image/hero/slider2.png";
 import sliderBg from "../../../assets/Image/hero/background.png";
 
@@ -41,6 +41,12 @@ const Hero = () => {
         <Slider {...settings}>
           {heroSliderData.map((data, ind) => (
             <div key={ind}>
+              <Image
+                className={styles.sliderBackgroundImage}
+                src={sliderBg}
+                alt=""
+              />
+
               <div className={styles.heroSliderAllDataContainer}>
                 <div className={styles.heroSliderDataContainer}>
                   <div>
